@@ -6,7 +6,7 @@ def main():
 
 def dollars_to_float(d):
     d_fl = d.strip("$")
-    return d_fl
+    return float(d_fl)
 
 def percent_to_float(p):
     p_fl = p.strip("%")
